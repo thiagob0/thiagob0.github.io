@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <header>
+        <h1>Fundamentos da Web</h1>
+        <p>Laboratório - 22/09/2023</p>
+        <div class="separador_topo">
+            <a class="retomar" href="index.html">Retomar</a>
+        </div>
+    <h1>Contatos</h1>
+   <form action="http://httpbin.org/post" method="POST">
+    <fieldset>
+        <legend>Entre em contato conosco!</legend>
+        <label for="#nome">Nome</label>
+        <input type="text" id="Nome" placeholder="Digite seu nome!">
+        <br>
+        <br>
+        <label for="#assunto">Assunto</label>
+        <input type="text" id="Assunto">
+        <br>
+        <br>
+        <label for="#data">Data da ocorrência</label>
+        <input type="date" id="data">
+        <br>
+        <br>
+        <label for="#foto">Foto</label>
+        <input type="file" id="foto">
+        <br>
+        <br>
+        <label for="#telefone">Telefone</label>
+        <input type="text" id="telefone" placeholder="Digite seu telefone">
+        <br>
+        <br>
+        <label for="#email">Email</label>
+        <input type="text" id="email" placeholder="Digite seu email">
+        <br>
+        <br>
+        <label for="#mensagem">Mensagem</label>
+        <textarea id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        <br>
+        <br>
+        <label for="#estilo">Estilo</label>
+        <select  id="estilo">
+            <option value="1">acadêmico</option>
+            <option value="2">alhsd</option>
+            <option value="3">askhdas</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Adicionar</button>
+        <button type="reset">Limpar</button>
+    </fieldset>
+   </form>
+</body>
+</html>
